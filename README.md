@@ -9,4 +9,4 @@
 ### RetinaNet
 |Name|download|
 |-|-|
-|R50_3x|[model](https://www.dropbox.com/s/zuvj9qiuv5ntge9/retinanet_r_50_fpn_3x_aihub_final.pth) \| [metrics]()
+|R50_3x|[model](https://www.dropbox.com/s/zuvj9qiuv5ntge9/retinanet_r_50_fpn_3x_aihub_final.pth) \| [metrics](https://github.com/visionNoob/detectron2_aihub_tutorial/blob/master/models/metrics.json)
