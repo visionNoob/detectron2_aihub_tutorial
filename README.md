@@ -4,7 +4,9 @@
 
 [DEMO_VIDEO](https://youtu.be/QpmHKVqvufo)
 
-### RetinaNet:
+## Pretrained Models:
+* Trained with 13 classes ([label.csv](https://www.dropbox.com/s/byecey0zebrn203/aihub_13_classes_label.csv?dl=0))
+### RetinaNet
 |Name|download|
 |-|-|
 |R50_3x|[model](https://www.dropbox.com/s/zuvj9qiuv5ntge9/retinanet_r_50_fpn_3x_aihub_final.pth) \| [metrics]()
