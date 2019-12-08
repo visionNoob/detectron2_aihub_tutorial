@@ -1,0 +1,3 @@
+To download pertained model,
+Follow the command below :
+wget 'https://www.dropbox.com/s/zuvj9qiuv5ntge9/retinanet_r_50_fpn_3x_aihub_final.pth'
