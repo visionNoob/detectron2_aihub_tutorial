@@ -6,6 +6,7 @@
 ![image](https://user-images.githubusercontent.com/15168540/70385966-8ac3b980-19d6-11ea-94c7-7c793fb810f7.png)
 ![image](https://user-images.githubusercontent.com/15168540/70727477-1759d900-1d43-11ea-912b-de7c8797bdce.png)
 ![image](https://user-images.githubusercontent.com/15168540/70727520-28a2e580-1d43-11ea-80ab-636da041f292.png)
+![image](https://user-images.githubusercontent.com/15168540/70729772-22af0380-1d47-11ea-8afe-876cae83bd8b.png)
 
 
 **데모 비디오**
@@ -51,7 +52,8 @@
 * You have to change your config ([example](https://www.dropbox.com/s/knvv6tyd6mna9ec/Base-RetinaNet.yaml))  
 -> Change Aspect Ratios of Anchor to  
 ```[[0.65, 1.0, 2.47, 5.2, 18.12]]```
-### RetinaNet (13 claases)
+
+### RetinaNet (trained with 13 claases)
 |Name|download|
 |-|-|
 |R50_3x|[model](https://www.dropbox.com/s/zuvj9qiuv5ntge9/retinanet_r_50_fpn_3x_aihub_final.pth) \| [metrics](https://github.com/visionNoob/detectron2_aihub_tutorial/blob/master/models/metrics.json)
