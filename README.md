@@ -15,7 +15,7 @@
 # Tutorials
 1. [Detectron2 공식 튜토리얼 번역 (pre-trained by MS-COCO)](https://colab.research.google.com/github/visionNoob/detectron2_aihub_tutorial/blob/master/Detectron2_Tutorial_(kor_ver).ipynb)
 2. [Detectron2 AIHUB 데이터셋 튜토리얼(inference)](https://colab.research.google.com/github/visionNoob/detectron2_aihub_tutorial/blob/master/Detectron2_AIHub_Tutorial.ipynb)
-3. Detectron2 AIHUB 데이터셋 튜토리얼 (training) (준비중)
+3. [Detectron2 AIHUB 데이터셋 튜토리얼(training, jupyter notebook)](https://github.com/visionNoob/detectron2_aihub_tutorial/blob/master/Detectron2_training_custom_dataset_(AIHub_sidewalk_datataset).ipynb)
 
 # AI허브 인도 보행 데이터셋 정보
 [다운로드 링크](http://aihub.or.kr/content/611)
@@ -45,7 +45,45 @@
 ---
 ![image](https://user-images.githubusercontent.com/15168540/70509636-5be24a80-1b72-11ea-8a4d-a4fd0594012d.png)
 
+# Trainig Model
+## 1. DATASET 구성
+데이터셋을 다음과 같이 구성하세요. 
 
+다운로드  
+[aihub_27_classes_label.csv](https://www.dropbox.com/s/mh3yeeu22h8spqb/aihub_27_classes_label.csv
+)  
+[aihub_13_classes_label.csv](https://www.dropbox.com/s/byecey0zebrn203/aihub_13_classes_label.csv
+)
+
+```
+${DATASET_ROOT}
+ `-- aihub_27_classes_label.csv
+  -- aihub_13_classes_label.csv
+  -- images`
+     |-- 0617_01
+     |   |-- 0617_01.xml
+     |   |-- MP_SEL_000001.jpg
+     |   |-- MP_SEL_000002.jpg
+     |   |-- MP_SEL_000003.jpg
+     |   |-- MP_SEL_000004.jpg
+     |   |-- ...
+     |-- 0617_02
+     |   |-- 0617_02.xml
+     |   |-- MP_SEL_000201.jpg
+     |   |-- MP_SEL_000202.jpg
+     |   |-- MP_SEL_000203.jpg
+     |   |-- MP_SEL_000204.jpg
+     |   |-- ...
+     |-- 0617_04
+     |   |-- 0617_03.xml
+     |   |-- MP_SEL_000601.jpg
+     |   |-- MP_SEL_000602.jpg
+     |   |-- MP_SEL_000603.jpg
+     |   |-- MP_SEL_000604.jpg
+     |   |-- ...
+```
+## 2. 학습
+[Detectron2 AIHUB 데이터셋 튜토리얼(training, jupyter notebook)](https://github.com/visionNoob/detectron2_aihub_tutorial/blob/master/Detectron2_training_custom_dataset_(AIHub_sidewalk_datataset).ipynb) 
 
 # Pretrained Models (13 classes):
 * Trained with 13 classes ([label.csv](https://www.dropbox.com/s/byecey0zebrn203/aihub_13_classes_label.csv?dl=0))
